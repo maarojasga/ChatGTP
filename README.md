@@ -1,6 +1,6 @@
 # Simple integración de ChatGTP con Streamlit
 
-Desarrollado con Streamlit,cuenta con una interfaz gráfica sencilla y la capacidad para descargar un archivo con las respuestas obtenidas.
+Desarrollado con Streamlit, cuenta con una interfaz gráfica sencilla y la capacidad para descargar un archivo con las respuestas obtenidas.
 
 ## Instalación
 
