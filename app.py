@@ -1,7 +1,11 @@
 
 import streamlit as st
 import openai
+import os
 from PIL import Image
+from dotenv import load_dotenv
+
+config = load_dotenv(".env") # Usar .env
 
 image = Image.open('latin.png')
 
@@ -16,7 +20,7 @@ if lang == 'Español':
     st.title('Instrucciones de uso')
     st.text('Usamos la tecnología de ChatGTP para dar respuesta a tus preguntas y\nte permitimos poder descargarlas en un archivo de texto')
 
-    openai.api_key = "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" 
+    openai.api_key = os.getenv('KEY') # API KEY -> ChatGTP
 
     question = st.text_input("Escribe tu pregunta: ")
 
