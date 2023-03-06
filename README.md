@@ -26,11 +26,11 @@ Desarrollado con Streamlit, cuenta con una interfaz gráfica sencilla y la capac
 
 1.  Reemplaza con la llave que generaste.
 
-    openai.api_key = os.getenv('KEY') # API KEY -> ChatGTP
+        openai.api_key = os.getenv('KEY') # API KEY -> ChatGTP
 
 2. Ejecuta
 
-    streamlit run app.py
+        streamlit run app.py
 
 
 
